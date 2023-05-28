@@ -1,0 +1,9 @@
+[package]
+name = "rrama"
+version = "0.0.1"
+edition = "2021"
+authors = ["Andrew Konstantinov"]
+
+[dependencies]
+clap = { version = "4.3.0", features = ["derive"] }
+clap_mangen = "0.2.11"
